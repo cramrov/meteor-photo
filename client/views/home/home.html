@@ -1,0 +1,23 @@
+<template name="home">
+  <h1>Meteor Photo</h1>
+  
+  {{> loginButtons}}
+  
+  {{#if currentUser}}
+  
+    {{#if page "view1"}}
+  
+      {{> view1 }}
+    {{else}} {{#if page "view2"}}
+      {{> view2 }}
+    {{else}}
+      <p>page not found</p>
+    {{/if}}{{/if}}
+  
+   <!-- <input id="contacts" class="btn btn-primary" type="button" value="Mostrar tots els comentaris" /> -->
+  
+  {{else}}
+    <h3>Introdueix el login per continuar</h3>  
+  {{/if}}
+  
+</template>

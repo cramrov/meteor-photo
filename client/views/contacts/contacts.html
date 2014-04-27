@@ -1,0 +1,19 @@
+<template name="contacts">
+  <h1>Tots els comentaris:</h1>
+  
+ <table>  
+    <tr>
+      <th>Comentaris</th>
+    </tr>
+    {{#each contact}}    
+      <tr>
+        <td>{{name}}</td> 
+      </tr>
+    {{/each}}  
+ </table>   
+  <br/>
+ 
+  <!--<input class="btn btn-success" type="button" value="Torna a la pàgina principal" /> -->
+  <!--<input id="contacts" class="btn btn-primary" type="button" value="Mostrar tots els comentaris" />-->
+  
+</template>

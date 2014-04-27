@@ -1,0 +1,13 @@
+<template name="view2">
+  <h1>Arduino</h1>
+  {{greeting}}
+  <br/>
+  <img src="/images/h_05.jpg"> 
+  
+  <ul>
+    {{#each contact}}
+      <li>Comentari: {{name}}</li>
+    {{/each}}
+  </ul>
+  <input class="btn btn-success" type="button" value="Torna a la pàgina principal" />
+</template>
