@@ -11,7 +11,8 @@ Previament l'usuari ha de registrar-se mitjançant Twitter.
 Paquets a instalar
 ==============
 
-(Ès necessari tenir meteorite i clonar el projecte).
+(Ès necessari tenir meteorite i clonar el projecte)
+.
 
 		  	mrt add iron-router
 		    	mrt add nprogress
