@@ -8,7 +8,7 @@ L'aplicació mostra una fotografia que l'usuari pot comentar, a més a més pot 
 Previament l'usuari ha de registrar-se mitjançant Twitter.
 
 
-Paquets a intalar
+Paquets a instalar
 ==============
 
 (Ès necessari tenir meteorite i clonar el projecte).
