@@ -28,6 +28,6 @@ Oriol Tomàs
 
 URL
 ==============
-meteorphoto.meteor.com
+http://meteorphoto.meteor.com
 
 				
